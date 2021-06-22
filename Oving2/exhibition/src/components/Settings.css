@@ -1,0 +1,43 @@
+.DropDownContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 12px;
+  border-width: 10px;
+  border-style: double;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.ThemeSelector {
+  font-size: 0.625rem;
+}
+
+.options{
+  font-size: 0.625rem;
+
+}
+
+.DropDownItem {
+  margin-top: 4vh;
+}
+
+.Input {
+  width: 90%;
+}
+
+@media (max-width: 550px) {
+  .DropDownContent {
+    font-size: 0.625rem;
+    border-radius: 0;
+    border-width: 0;
+    border-style: none;
+    width: auto;
+  }
+  .DropDownItem {
+    margin-top: 1vh;
+    width: 90%;
+
+  }
+}

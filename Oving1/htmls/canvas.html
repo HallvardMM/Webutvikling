@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canvas painting</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!--Adding jquery from CDN soo user can use already downloaded jquery-->
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/canvas.js"></script>
+    <!--Adding drawing logic and interactivity-->
+
+
+
+</head>
+
+<body>
+    <nav class="headermenu">
+        <a href="../index.html">Main</a>
+        <a href="artist.html">Artist</a>
+        <a href="svg.html">Two SVG Houses</a>
+        <a href="canvas.html">Two Canvas Houses</a>
+    </nav>
+
+    <div id="text">
+        <h1>Art for the millennia - SVG vs. Canvas</h1>
+        <h2>"Two Canvas Houses"</h2>
+
+        <p>
+            - Try to have the cursor enter and reenter the sun.
+            <br>- Try have the cursor enter and reenter the cloud.
+            <br>- Try to doubleclick the roofs.
+            <br>- Try to click the houses.
+            <br>- The flowers blink.
+        </p>
+
+        <div id="border">
+            <!--Div for helping detect when mouse leaves canvas-->
+            <canvas id="myCanvas" width="450px" height="600px" style="border:3px solid #000000;" ;></canvas>
+        </div>
+
+        <div id="info"></div>
+
+        <div class="docx">
+            <button id="textButton">Show Documentation</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

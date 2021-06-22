@@ -1,0 +1,45 @@
+#abstractSVG {
+    background-color: tomato;
+    animation: blueBackground 3s linear infinite alternate;
+}
+
+.abstractRect {
+    fill: mediumslateblue;
+    animation: upDownRotate 3s linear infinite alternate;
+}
+
+.abstractCircle {
+    fill: burlywood;
+    animation: abstractleftRight 3s linear infinite alternate;
+}
+
+@keyframes upDownRotate {
+    from {
+        transform: translate(0px, -5px);
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: translate(0px, 5px);
+        transform: rotate(360deg);
+
+        fill: hotpink
+        
+    }
+}
+
+@keyframes abstractleftRight {
+    from {
+        transform: translate(-10px, 0px);
+    }
+    to {
+        transform: translate(10px, 0px);
+        fill:springgreen
+    }
+}
+
+@keyframes blueBackground {
+    to {
+        background-color: cornflowerblue;
+    }
+}

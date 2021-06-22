@@ -1,0 +1,42 @@
+
+.CarSky {
+    fill: lightblue;
+  }
+  
+.CarSun {
+fill: yellow;
+}
+
+.CarRoof, .Car{
+fill: red;
+}
+
+.Road, .Exhaust {
+fill: rgb(105,105,105);
+}
+
+.CarWindow {
+fill: lightblue;
+}
+
+.Exhaust, .CarRoof, .Wheels, .Car, .CarWindow{
+animation: moveCar 5s infinite;
+}
+
+.Vroom{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    animation: vroom 5s infinite;
+}
+
+@keyframes moveCar {
+from  {transform: translate(-50%);}
+100%  {transform: translate(110%);}
+}
+
+@keyframes vroom {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}

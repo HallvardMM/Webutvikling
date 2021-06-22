@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 600">
+    <rect class="CarSky" width="450" height="600" />
+    <circle class="CarSun" cx="60" cy="55" r="50" />
+
+    <text x="150" y="300" class="Vroom">Vroom Vroooom!!!</text>
+
+    <rect class="Road" width="450" height="20" y="580" />
+    <rect class="Exhaust" width="30" height="10" x="-5" y="550" />
+    <rect class="Car" width="220" height="50" x="5" y="520" />
+    <rect class="CarRoof" width="155" height="40" x="5" y="490" />
+    <rect class="CarWindow" width="40" height="20" x="55" y="500" />
+    <rect class="CarWindow" width="40" height="20" x="115" y="500" />
+    <circle class="Wheels" cx="55" cy="560" r="20" />
+    <circle class="Wheels" cx="185" cy="560" r="20" />
+
+</svg>

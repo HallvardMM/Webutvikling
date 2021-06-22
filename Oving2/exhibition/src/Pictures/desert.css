@@ -1,0 +1,46 @@
+/*Background color in svg picture*/
+#desertBackground {
+    fill:rgb(20, 83, 200);
+  }
+
+/*Color for moon*/
+#moon{
+    fill:rgb(254,252,215);
+}
+
+/*Color for halfmoon*/
+#halfMoon{
+    fill:rgb(20, 83, 200);
+    animation: fullmoon 10s infinite;
+}
+
+
+/*Dune left side color for linear grading*/
+.duneColor1{
+    stop-color:rgb(245, 204, 77);
+}
+
+/*Dune right side color for linear grading*/
+.duneColor2{
+    stop-color:rgb(223, 193, 99);
+}
+
+/*Linear grading color for both dunes*/
+#dune1, #dune2{
+    fill:url(#dunes);
+}
+
+/*Color of stars*/
+.star{
+    fill:orange;
+    animation: twinkle 1s infinite linear;
+}
+
+@keyframes twinkle { to {fill: yellow}}
+
+@keyframes fullmoon { 
+    0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+}
+

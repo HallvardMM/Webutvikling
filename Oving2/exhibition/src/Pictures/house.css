@@ -1,0 +1,34 @@
+
+.Sky {
+  fill: rgb(20, 83, 200);
+  animation: day 5s infinite;
+}
+
+.Moon {
+  fill: rgb(254,252,215);
+  animation: houseSun 5s infinite;
+}
+
+.Chimney, .Box{
+  fill: #8c5e58;
+}
+
+.Roof {
+  fill: #6b6570;
+}
+
+.Grass {
+  fill: #2ceaa3;
+}
+
+.Door {
+  fill: #0d1f22;
+}
+
+@keyframes houseSun {
+  50% {fill: yellow;}
+}
+
+@keyframes day {
+  50% {fill: lightblue ;}
+}

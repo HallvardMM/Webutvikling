@@ -1,0 +1,55 @@
+#svg {
+    background-color: papayawhip;
+}
+
+.headPolygon {
+    fill:lightseagreen;
+    stroke:teal;
+    stroke-width: 3;
+    fill-rule: evenodd;
+}
+
+.man {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: rotate 2s infinite linear;
+}
+
+.pupil {
+    display: block;
+}
+
+.backRect {
+    animation: upDown 0.5s linear infinite alternate;
+}
+
+.backCircle {
+    animation: leftRight 0.5s linear infinite alternate;
+}
+
+@keyframes upDown {
+    from {
+        transform: translate(0px, -5px);
+    }
+    to {
+        transform: translate(0px, 5px);
+    }
+}
+
+@keyframes leftRight {
+    from {
+        transform: translate(-5px, 0px);
+    }
+    to {
+        transform: translate(5px, 0px);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

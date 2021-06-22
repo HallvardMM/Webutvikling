@@ -1,0 +1,56 @@
+.backGroundProgPils{
+    fill: wheat;
+}
+
+.table, .frame{
+    fill:brown;
+}
+
+.computer{
+    fill: white;
+}
+
+.screen{
+    fill:red;
+    animation: rgbShift 3s linear infinite alternate;
+}
+
+.beer{
+    fill:darkgreen;
+}
+
+.beerLabel{
+    fill:goldenrod;
+}
+
+.beerLabelBorder{
+    fill:maroon;
+}
+
+.picture1{
+    fill: white
+}
+
+.picture2{
+    fill:orange
+}
+
+.picture3{
+    fill:olive;
+    animation: oliveUpDown 1s linear infinite alternate;
+}
+
+@keyframes rgbShift {
+    from { fill: red}
+    50% { fill: green}
+    to{ fill: blue}
+}
+
+@keyframes oliveUpDown {
+    from {
+        transform: translate(-5px, -5px);
+    }
+    to {
+        transform: translate(5px, 5px);
+    }
+}

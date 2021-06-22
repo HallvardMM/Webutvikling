@@ -1,0 +1,100 @@
+.Exhibition {
+  height: 100%;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.columnRight {
+  display: flex;
+  flex-direction: column;
+
+  width: 10%;
+}
+
+.ExhibitionbuttonLeft,
+.ExhibitionbuttonRight {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 4px;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.ExhibitionbuttonLeft:hover,
+.ExhibitionbuttonRight:hover,
+.ExtraButton:hover {
+  background-color: whitesmoke !important;
+}
+
+.ExhibitionbuttonLeft {
+  align-self: flex-end;
+}
+
+.ExtraButton {
+  border-radius: 4px;
+  padding: 5px 5px 0px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+}
+.ExtraButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ExtraButtons div{
+  display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  .ExhibitionbuttonLeft,
+  .ExhibitionbuttonRight {
+    font-size: 0.75rem;
+  }
+  .ExtraButton {
+    padding: 4.5px 4.5px 0px 4.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ExhibitionbuttonLeft, .ExhibitionbuttonRight {
+    font-size: 0.7rem;
+  }
+  .ExtraButton {
+    padding: 3.5px 3.5px 0px 3.5px;
+  }
+}
+
+@media (max-width: 550px) {
+  .ExhibitionbuttonLeft{
+    margin-right: 5px;
+  }
+  .ExhibitionbuttonRight{
+    margin-left: 5px;
+  }
+
+  .ExtraButton {
+    padding: 2px 2px 0px 2px;
+  }
+}

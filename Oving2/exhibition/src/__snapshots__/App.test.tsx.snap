@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="App"
+  id="App"
+  style={
+    Object {
+      "backgroundColor": "cornflowerblue",
+    }
+  }
+>
+  <div
+    className="DropDown"
+  >
+    <div
+      className="DropDown"
+    >
+      <div>
+        <button
+          className="settingsButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "lightskyblue",
+              "borderColor": "mediumblue",
+              "color": "mediumblue",
+            }
+          }
+        >
+          <svg>
+            settings.svg
+          </svg>
+        </button>
+      </div>
+      <div>
+        <div />
+      </div>
+    </div>
+  </div>
+  <div
+    className="Main"
+  >
+    <h1
+      className="mainTitle"
+    >
+      Worlds Greatest Art Exhibition!
+    </h1>
+    <div
+      className="Exhibition"
+    >
+      <div
+        className="row"
+      >
+        <button
+          className="ExhibitionbuttonLeft"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "lightskyblue",
+              "borderColor": "mediumblue",
+              "color": "mediumblue",
+            }
+          }
+        >
+          &lt; Prev
+        </button>
+        <div
+          className="Art"
+        >
+          <h2
+            className="ArtTitle"
+          >
+            Title: 
+            Abstract
+          </h2>
+          <div
+            className="poetryDiv"
+          >
+            <p>
+              Poetry is loading
+            </p>
+          </div>
+          <div
+            className="ArtFrame"
+            style={
+              Object {
+                "borderColor": "mediumblue",
+              }
+            }
+          >
+            <svg>
+              abstract.svg
+            </svg>
+          </div>
+        </div>
+        <button
+          className="ExhibitionbuttonRight"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "lightskyblue",
+              "borderColor": "mediumblue",
+              "color": "mediumblue",
+            }
+          }
+        >
+          Next &gt;
+        </button>
+      </div>
+      <div
+        className="ExtraButtons"
+      >
+        <div>
+          <button
+            className="ExtraButton"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "lightskyblue",
+                "borderColor": "mediumblue",
+                "color": "mediumblue",
+              }
+            }
+          >
+             
+            <svg>
+              pause.svg
+            </svg>
+             
+          </button>
+          Rotation
+        </div>
+        <div>
+          <button
+            className="ExtraButton"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "lightskyblue",
+                "borderColor": "mediumblue",
+                "color": "mediumblue",
+              }
+            }
+          >
+            <svg>
+              unstar.svg
+            </svg>
+             
+          </button>
+          Favorite
+        </div>
+        <div>
+          <button
+            className="ExtraButton"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "lightskyblue",
+                "borderColor": "mediumblue",
+                "color": "mediumblue",
+              }
+            }
+          >
+            <svg>
+              audio.svg
+            </svg>
+             
+          </button>
+          Sound
+        </div>
+      </div>
+      <div>
+        <audio
+          autoPlay={true}
+          loop={true}
+          muted={false}
+          src="Abstract.mp3"
+        />
+      </div>
+    </div>
+    <h2
+      className="about"
+    >
+      About the exhibition
+    </h2>
+    <h4
+      className="text"
+    >
+      Info
+    </h4>
+    <p
+      className="text"
+    >
+      This exhibition is made to combine different artistic mediums to a large art piece. The exhibition contains eight art pieces with a picture made in SVG, a title, sound and the first line from a poem randomly collected from
+       
+      <a
+        href="https://poetrydb.org/index.html"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        poetryDB.
+      </a>
+    </p>
+    <h4
+      className="text"
+    >
+      Additions
+    </h4>
+    <p
+      className="text"
+    >
+      By user request we added the possibility to save a art piece. You can do so by favoriting an image by clicking the star button. Next time you look at the picture the star button is marked and the poem is the same as the saved one. If you unfavorit a new poem wil be added next time.
+    </p>
+    <p
+      className="text"
+    >
+      Rotation is default 10s and can be changed in settings. The change will be saved until you close your browser. Apply be pressing enter after writing in a number from 1s to how high you want in seconds. You can pause with pause-button and it will automatically pause if you change picture manually.
+    </p>
+    <p
+      className="text"
+    >
+      In settings you can change color theme and it will stay the same until you refresh the page.
+    </p>
+    <p
+      className="text"
+    >
+      It is added fitting music to the art. If you want to enjoy the art in silence you can press the sound-button and mute.
+    </p>
+    <ul>
+      <b
+        className="text"
+      >
+        Credits for the music and sound
+      </b>
+      <li
+        className="text"
+      >
+        Abstract: Piano Horror - Francisco Alvear
+         
+        <a
+          href="https://mixkit.co/free-stock-music/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        Car: Car sounds from 1:00 - 1:08
+         
+        <a
+          href="https://www.youtube.com/watch?v=hWrwloX6H9U&ab_channel=19Bozzy92"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to sounds
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        Desert: Sun and His Daughter - Eugenio Mininni
+         
+        <a
+          href="https://mixkit.co/free-stock-music/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        Duff: Comical - Ahjay Stelino
+         
+        <a
+          href="https://mixkit.co/free-stock-music/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        Head: Hip Hop 02 - Lily J
+         
+        <a
+          href="https://mixkit.co/free-stock-music/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        House: Spirit in the Woods - Alejandro Magaña (A. M.)
+         
+        <a
+          href="https://mixkit.co/free-stock-music/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        ProgPils: Games Worldbeat - Bernardo R.
+         
+        <a
+          href="https://mixkit.co/free-stock-music/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+      <li
+        className="text"
+      >
+        TwoHouse: Sugar Baby - Dock Boggs
+         
+        <a
+          href="http://www.openmusicarchive.org/search.php"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Link to song
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

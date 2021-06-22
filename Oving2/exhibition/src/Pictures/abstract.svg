@@ -1,0 +1,8 @@
+<svg id="abstractSVG" viewBox="0 0 450 600">
+    <circle class="abstractCircle" cx="130" cy="100" r="70" stroke="indianred" stroke-width="3" />
+    <circle class="abstractCircle" cx="330" cy="300" r="70" stroke="indianred" stroke-width="3" />
+    <circle class="abstractCircle" cx="130" cy="500" r="70" stroke="indianred" stroke-width="3" />
+    <rect class="abstractRect" x="80" y="230" width="120" height="120" rx="10" transform-origin="140 290" stroke="#e65f2e" stroke-width="3" />
+    <rect class="abstractRect" x="260" y="50" width="120" height="120" rx="10" transform-origin="320 110" stroke="#e65f2e" stroke-width="3" />
+    <rect class="abstractRect" x="260" y="450" width="120" height="120" rx="10" transform-origin="320 510" stroke="#e65f2e" stroke-width="3" />
+</svg>

@@ -1,0 +1,65 @@
+.Art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.poetryDiv {
+  height: 5rem;
+  overflow: hidden;
+}
+
+.poetry {
+  font-size: 1rem;
+}
+
+.poetryAuthor {
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.poetryDiv p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 100%;
+}
+
+.ArtTitle {
+  margin: 1%;
+  font-size: 1.5rem;
+}
+
+.ArtFrame {
+  margin-top: 2px;
+  width: 90%;
+  border-width: 10px;
+  border-style: double;
+  border-radius: 12px;
+
+}
+
+@media (max-width: 768px) {
+  .Art {
+    width: 300px;
+  }
+
+  .ArtTitle {
+    font-size: 0.8rem;
+  }
+
+  .poetry {
+    font-size: 0.8rem;
+  }
+  
+  .poetryAuthor {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .Art {
+    width: 200px;
+  }
+
+}

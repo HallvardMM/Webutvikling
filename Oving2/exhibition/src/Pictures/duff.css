@@ -1,0 +1,60 @@
+#duffSvg {
+    background-color: aqua;
+}
+
+.duffLogo{
+    fill:black;
+    font-size:30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.duffBottle{
+    stroke: black;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+}
+
+.duff {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: rotateDuff 5s infinite linear;
+    fill: brown
+}
+
+.duffCloud{
+    fill:white;
+    stroke:gainsboro;
+}
+
+.theSimpsons{
+    fill:yellow;
+    Stroke: Goldenrod;
+    font-size: 60px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    animation: theSimpsonsColor 3s infinite alternate;
+
+}
+
+@keyframes rotateDuff {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes theSimpsonsColor {
+    from {
+        fill:yellow;
+        Stroke: Goldenrod;
+    }
+    to {
+        fill:firebrick;
+        Stroke: black;
+    }
+}

@@ -1,0 +1,74 @@
+<svg id="duffSvg" viewBox="0 0 450 600">
+    <g transform="translate(30 100)">
+
+        <!-- Source for cloud: https://stackoverflow.com/questions/30919053/creating-a-responsive-cloud-shape-->
+        <path class="duffCloud" d='M 25,10 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <path class="duffCloud" d='M 55,20 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <path class="duffCloud" d='M 105,10 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <path class="duffCloud" d='M 255,10 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <path class="duffCloud" d='M 355,20 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <path class="duffCloud" d='M 315,10 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <path class="duffCloud" d='M 200, -70 
+        a 20,20 1 0,0 0,40 
+        h 50 
+        a 20,20 1 0,0 0,-40 
+        a 10,10 1 0,0 -15,-10 
+        a 15,15 1 0,0 -35,10  
+        z' />
+
+        <!-- duff -->
+        <g class="duff">
+            <!-- duff shape -->
+            <polygon class="duffBottle" points="150,200 180,120 181,50, 219,50, 220,120 250,200 250,350 150,350" />
+            <polygon class="" />
+            <rect x="153" y="220" width="94" height="60" rx="10" stroke="red" stroke-width="4" fill="white" />
+            <text class="duffLogo" x="160" y="260"> Duff!</text>
+        </g>
+        <text class="theSimpsons" y="450">The Simpsons</text>
+
+    </g>
+
+
+</svg>

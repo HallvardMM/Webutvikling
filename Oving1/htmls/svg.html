@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SVG painting</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/svg.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!--Adding jquery from CDN soo user can use already downloaded jquery-->
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/svg.js"></script>
+    <!--Making svg interactive-->
+
+</head>
+
+<body>
+    <nav class="headermenu">
+        <a href="../index.html">Main</a>
+        <a href="artist.html">Artist</a>
+        <a href="svg.html">Two SVG Houses</a>
+        <a href="canvas.html">Two Canvas Houses</a>
+    </nav>
+
+    <div id="text">
+        <h1>Art for the millennia - SVG vs. Canvas</h1>
+        <h2>"Two SVG Houses"</h2>
+
+        <p>
+            - Try to have the cursor enter and reenter the sun.
+            <br>- Try have the cursor enter and reenter the cloud.
+            <br>- Try to doubleclick the roofs.
+            <br>- Try to click the houses.
+            <br>- The flowers blink.
+        </p>
+
+        <div>
+            <svg width="450" height="600" style="border:3px solid black">
+                <!--The svg element with border-->
+
+                <rect id="background" width="450" height="600"></rect>
+                <!--Element for setting background color-->
+
+
+                <defs>
+                    <!--Creating the gradiant color for the sun-->
+                    <radialGradient id="sunColor" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                        <stop class="sunColor1" offset="0%"></stop>
+                        <stop class="sunColor2" offset="100%"></stop>
+                    </radialGradient>
+                </defs>
+                <circle id="sun" cx="0" cy="0" r="135"></circle>
+                <!--The sun element-->
+
+                <defs>
+                    <!--Creating linear gradiant for the cloud-->
+                    <linearGradient id="cloudColor" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop class="cloudColor1" offset="0%"></stop>
+                        <stop class="cloudColor2" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <ellipse id="cloud" cx="325" cy="80" rx="140" ry="65"></ellipse>
+                <!--The cloud element-->
+
+                <polygon class="Roof1" points="80,375 180,375 130,300"></polygon>
+                <!--Roof for the red house to the left-->
+                <rect id="House1" x="80" y="375" width="100" height="80"></rect>
+                <!--The red house-->
+
+
+                <polygon class="Roof2" points=" 280,375 380,375 330,300"></polygon>
+                <!--Roof for the purple house to the right-->
+                <rect id="House2" x="280" y="375" width="100" height="80"></rect>
+                <!--The purple house-->
+
+                <defs>
+                    <!-- Linear coloring for the hills-->
+                    <linearGradient id="hills" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop class="hillColor1" offset="0%"></stop>
+                        <stop class="hillColor2" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <ellipse id="hill1" cx="115" cy="600" rx="250" ry="155"></ellipse>
+                <!-- Left hill-->
+                <ellipse id="hill2" cx="350" cy="600" rx="250" ry="155"></ellipse>
+                <!-- Right hill-->
+
+                <circle class="smallFlower" cx="90" cy="490" r="5"></circle>
+                <circle class="smallFlower" cx="50" cy="540" r="5"></circle>
+                <circle class="smallFlower" cx="190" cy="540" r="5"></circle>
+                <circle class="smallFlower" cx="370" cy="475" r="5"></circle>
+                <circle class="smallFlower" cx="300" cy="580" r="5"></circle>
+                <circle class="smallFlower" cx="250" cy="475" r="5"></circle>
+                <circle class="smallFlower" cx="390" cy="540" r="5"></circle>
+                <!-- Flowers on the ground-->
+
+
+
+
+            </svg>
+        </div>
+
+        <div id="info"></div>
+
+        <div class="docx">
+            <button id="textButton">Show Documentation</button>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

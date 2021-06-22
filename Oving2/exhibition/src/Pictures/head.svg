@@ -1,0 +1,33 @@
+<svg id="svg" viewBox="0 0 450 600">
+    <g transform="translate(30 100)">
+
+        <!-- Gradients -->
+        <defs>
+            <radialGradient id="gradientPink">
+                <stop offset="10%" stop-color="#f2acac" />
+                <stop offset="95%" stop-color="lightcoral" />
+            </radialGradient>
+            <radialGradient id="gradientOrange">
+                <stop offset="10%" stop-color="#fc9e7c" />
+                <stop offset="95%" stop-color="coral" />
+            </radialGradient>
+        </defs>
+        <!-- Circles and rectangles -->
+        <circle class="backCircle" cx="100" cy="100" r="70" stroke="indianred" stroke-width="3" fill="url('#gradientPink')" />
+        <circle class="backCircle" cx="300" cy="300" r="70" stroke="indianred" stroke-width="3" fill="url('#gradientPink')" />
+        <rect class="backRect" x="50" y="230" width="120" height="120" rx="10" stroke="#e65f2e" stroke-width="3" fill="url('#gradientOrange')" />
+        <rect class="backRect" x="230" y="50" width="120" height="120" rx="10" stroke="#e65f2e" stroke-width="3" fill="url('#gradientOrange')" />
+        <!-- man -->
+        <g class="man">
+            <!-- man shape -->
+            <polygon class="headPolygon" points="100,100 170,90 230,90 300,100 280,150 275,250 225,300 175,300 125,250 120,150" />
+            <!-- Eyes -->
+            <ellipse transform="translate(240 190) rotate(-20)" rx="22" ry="12" fill="teal" />
+            <ellipse transform="translate(160 190) rotate(20)" rx="22" ry="12" fill="teal" />
+            <!-- Pupils -->
+            <ellipse class="pupil" transform="translate(240 190) rotate(-20)" rx="6" ry="7" fill="papayawhip" />
+            <ellipse class="pupil" transform="translate(160 190) rotate(20)" rx="6" ry="7" fill="papayawhip" />
+        </g>
+    </g>
+
+</svg>

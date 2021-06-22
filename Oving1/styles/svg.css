@@ -1,0 +1,77 @@
+/*Stylesheet for svg element in svg.html*/
+
+/*Background color in svg picture*/
+#background {
+    fill:rgb(20, 173, 200);
+  }
+
+/*Color for sun*/
+#sun{
+    fill:url(#sunColor);
+}
+
+/*Inner sun color for radiant grading*/
+.sunColor1{
+    stop-color:rgb(255, 136, 0);
+}
+
+/*Outer sun color for radiant grading*/
+.sunColor2{
+    stop-color:rgb(255, 238, 0);
+}
+
+/*Color for cloud*/
+#cloud{
+    fill:url(#cloudColor);
+}
+
+/*Left cloud color for linear grading*/
+.cloudColor1{
+    stop-color:rgb(248, 248, 248);
+}
+
+/*Right cloud color for linear grading*/
+.cloudColor2{
+    stop-color:rgb(170, 170, 170);
+}
+
+/*Styling for roofs*/
+.Roof1, .Roof2{
+    fill:DimGray;
+    stroke:Black;
+    stroke-width:2;
+}
+
+/*Styling for left house*/
+#House1{
+    fill:crimson;
+    stroke-width:2;
+    stroke:rgb(0,0,0);
+}
+
+/*Styling for right house*/
+#House2{
+    fill:DarkSlateBlue;
+    stroke-width:2;
+    stroke:rgb(0,0,0);
+}
+
+/*Hills left side color for linear grading*/
+.hillColor1{
+    stop-color:rgb(20, 163, 27);
+}
+
+/*Hills right side color for linear grading*/
+.hillColor2{
+    stop-color:rgb(8, 107, 8);
+}
+
+/*Linear grading color for both hills*/
+#hill1, #hill2{
+    fill:url(#hills);
+}
+
+/*Starting color of flowers*/
+.smallFlower{
+    fill:rgb(255,0,255);
+}

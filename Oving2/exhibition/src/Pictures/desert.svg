@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 600">
+    <!--The svg element with border-->
+
+    <rect id="desertBackground" width="450" height="600"></rect>
+    <!--Element for setting background color-->
+
+
+    <circle id="moon" cx="90" cy="90" r="70"></circle>
+    <!--The moon element-->
+
+    <circle id="halfMoon" cx="110" cy="80" r="70"></circle>
+    <!--The make a halfmoon element-->
+
+
+    <defs>
+        <!-- Linear coloring for the dunes-->
+        <linearGradient id="dunes" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop class="duneColor1" offset="0%"></stop>
+            <stop class="duneColor2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <ellipse id="dune1" cx="115" cy="600" rx="250" ry="155"></ellipse>
+    <!-- Left dune-->
+    <ellipse id="dune2" cx="350" cy="600" rx="250" ry="155"></ellipse>
+    <!-- Right dune-->
+
+    <circle class="star" cx="190" cy="80" r="5"></circle>
+    <circle class="star" cx="240" cy="120" r="5"></circle>
+    <circle class="star" cx="250" cy="20" r="5"></circle>
+    <circle class="star" cx="290" cy="90" r="5"></circle>
+    <circle class="star" cx="310" cy="35" r="5"></circle>
+    <circle class="star" cx="360" cy="100" r="5"></circle>
+    <circle class="star" cx="400" cy="50" r="5"></circle>
+    <!-- Stars in the sky-->
+
+
+</svg>
